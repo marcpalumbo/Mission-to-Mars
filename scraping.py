@@ -126,7 +126,10 @@ def mars_facts():
 
 
 
-    return df.to_html()
+    return df.to_html(classes ="table table-striped")
+
+if __name__ == "__main__":
+    print(scrape_all())
 
 
 
